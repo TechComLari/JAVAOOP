@@ -63,8 +63,7 @@ public class ContaBancaria {
     //metodos especificos de conta bancaria
     public boolean sacar(float valorSacado) {
         if (this.getSaldo() < valorSacado) {
-            System.out.println("Saldo insuficiente," +
-                    " tente quando estiver rico! :)");
+            System.out.println("Saldo insuficiente, tente quando estiver rico! :)");
             return false;
         }
 
